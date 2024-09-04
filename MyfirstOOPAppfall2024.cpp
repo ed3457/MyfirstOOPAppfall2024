@@ -6,6 +6,17 @@
 int main()
 {
     std::cout << "Hello World!\n";
+
+    Student student1; // object 
+    Student student2; 
+
+    student1.setID("123");
+    student1.setMajor("English");
+    student1.setName("Ryan");
+
+    student1.printStudentInfo();
+
+    student2.printStudentInfo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

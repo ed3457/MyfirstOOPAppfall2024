@@ -21,5 +21,9 @@ public: // functions
 
 	void printStudentInfo();
 
+	Student();// default constructor 
+	Student(string i, string m, string n);
+
+
 };
 

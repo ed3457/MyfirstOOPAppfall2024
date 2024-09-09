@@ -8,7 +8,7 @@ int main()
     std::cout << "Hello World!\n";
 
     Student student1; // object 
-    Student student2; 
+    Student student2("5612","Jenna","Math");
 
     student1.setID("123");
     student1.setMajor("English");

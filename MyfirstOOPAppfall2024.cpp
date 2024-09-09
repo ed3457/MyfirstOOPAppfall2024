@@ -14,9 +14,15 @@ int main()
     student1.setMajor("English");
     student1.setName("Ryan");
 
-    student1.printStudentInfo();
+    //student1.printStudentInfo();
 
-    student2.printStudentInfo();
+    //student2.printStudentInfo();
+
+
+    Student StudentList[3];
+
+    for (int i = 0; i < 3; i++)
+        StudentList[i].printStudentInfo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

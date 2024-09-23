@@ -23,6 +23,26 @@ int main()
 
     for (int i = 0; i < 3; i++)
         StudentList[i].printStudentInfo();
+
+
+    Student* s1 = new Student();
+    Student* s2 = new Student("1221", "CS", "Jason");
+
+    s1->setID("1211221");
+
+    (*s1).setID("122432432");
+
+    delete s1; 
+
+   // s1 = new Student();
+
+    s1 = new Student[5];
+
+   // delete[] s1; 
+
+    for (int i = 0; i < 5; i++)
+        s1[i].setID(i+"");
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
